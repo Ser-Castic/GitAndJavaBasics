@@ -11,7 +11,7 @@ public class Main {
         acctTwo.checkings = 10.0;
         acctTwo.savings = 90.0;
 
-        System.out.println(acctOne.totalAmount(acctTwo));
+        System.out.println("The total amount in both accounts: " + acctOne.totalAmount(acctTwo));
 
         Book bookOne = new Book();
 
@@ -22,12 +22,14 @@ public class Main {
         bookOne.usCost = 7.99;
         bookOne.canadianCost = 14.99;
 
-        System.out.println("Name of the author is: " + bookOne.Author);
+        System.out.println("\nName of the author is: " + bookOne.Author);
         System.out.println("The title of the book is: " + bookOne.Title);
         System.out.println("The book is fiction: " + bookOne.fiction);
         System.out.println("The book is hardcover: " + bookOne.hardCover);
         System.out.println("The book costs: " + bookOne.usCost + " US Currency");
         System.out.println("The book costs: " + bookOne.canadianCost + " Canadian Currency");
+
+        System.out.println("The book cost in the US after sales tax is: " + bookOne.plusUsTax(bookOne));
 
 
         }
