@@ -13,5 +13,22 @@ public class Main {
 
         System.out.println(acctOne.totalAmount(acctTwo));
 
+        Book bookOne = new Book();
+
+        bookOne.Author = "Dr. Suess";
+        bookOne.Title = "The Cat In The Hat";
+        bookOne.fiction = true;
+        bookOne.hardCover = true;
+        bookOne.usCost = 7.99;
+        bookOne.canadianCost = 14.99;
+
+        System.out.println("Name of the author is: " + bookOne.Author);
+        System.out.println("The title of the book is: " + bookOne.Title);
+        System.out.println("The book is fiction: " + bookOne.fiction);
+        System.out.println("The book is hardcover: " + bookOne.hardCover);
+        System.out.println("The book costs: " + bookOne.usCost + " US Currency");
+        System.out.println("The book costs: " + bookOne.canadianCost + " Canadian Currency");
+
+
         }
 }

@@ -3,12 +3,11 @@ package com.theironyard.charlotte;
 public class Book {
 
     String Author;
+    String Title;
     boolean fiction;
-    double cost;
-
-    String library (Book type) {
-
-    }
+    boolean hardCover;
+    double usCost;
+    double canadianCost;
 
 
 }
