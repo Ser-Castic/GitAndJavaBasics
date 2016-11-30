@@ -16,4 +16,12 @@ public class Book {
         double theResult = result + price;
         return theResult/2;
     }
+
+    double plusCanTax (Book cost) {
+        double tax = 0.13;
+        double price = this.canadianCost + cost.canadianCost;
+        double result =  price * tax;
+        double theResult = result + price;
+        return theResult/2;
+    }
 }

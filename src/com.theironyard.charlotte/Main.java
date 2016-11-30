@@ -30,6 +30,7 @@ public class Main {
         System.out.println("The book costs: " + bookOne.canadianCost + " Canadian Currency");
 
         System.out.println("The book cost in the US after sales tax is: " + bookOne.plusUsTax(bookOne));
+        System.out.println("The book cost in Canada after sales tax is: " + bookOne.plusCanTax(bookOne));
 
 
         }

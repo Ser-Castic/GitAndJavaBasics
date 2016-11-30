@@ -1,5 +1,5 @@
 package com.theironyard.charlotte;
 
-public class Cars {
+public class Car {
 
 }
