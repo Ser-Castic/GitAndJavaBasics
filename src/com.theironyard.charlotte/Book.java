@@ -8,7 +8,7 @@ public class Book {
     boolean hardCover;
     double usCost;
     double canadianCost;
-
+    // Method Calculates book price after sales tax in the US
     double plusUsTax (Book cost) {
         double tax = 0.0475;
         double price = this.usCost + cost.usCost;
@@ -16,7 +16,7 @@ public class Book {
         double theResult = result + price;
         return theResult/2;
     }
-
+    // Method Calculates book price after sales tax in Canada
     double plusCanTax (Book cost) {
         double tax = 0.13;
         double price = this.canadianCost + cost.canadianCost;
